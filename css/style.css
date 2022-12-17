@@ -22,7 +22,7 @@ body {
 .page {
    flex: 1 1 auto;
 }
-
+/*  ----------------------------- button ------------------------ */
 .button {
    font-weight: 500;
    font-size: 14px;
@@ -56,12 +56,18 @@ body {
 /* -------------------------------------------- */
 /* ---header ------- */
 .header {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background-color: rgba(13, 13, 17, 0.5);
 }
 .header__container {
    min-height: 116px;
    column-gap: 35px;
    display: flex;
-   padding: 5px 0 5px 0;
+   padding-top: 5px;
+   padding-bottom: 5px;
    align-items: center;
 }
 
@@ -236,7 +242,7 @@ body {
 
    .cart-header__quantity {
       background: url("../img/cart.svg") center/auto 100% no-repeat;
-      background-color: #fff;
+      background-color: rgb(179, 181, 239);
       width: 40px;
       height: 40px;
       justify-content: center;
@@ -249,4 +255,17 @@ body {
       min-height: 70px;
       column-gap: 15px;
    }
+}
+/* ------------------------------------------------------------------------------------------------------ */
+.links {
+   margin: 30px;
+}
+.link {
+}
+.fab {
+   padding-top: 150px;
+}
+.fa-youtube {
+   color: #ffffff;
+   font-size: 34px;
 }
